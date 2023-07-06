@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-""" Basic annotations - add
+'''Task 0's module.
+'''
 
-This module contains a function that takes in two floats and returns their sum.
-"""
 
 def add(a: float, b: float) -> float:
-    """ Return sum of two floats """
+    '''Adds two floating-point numbers.
+    '''
     return a + b
