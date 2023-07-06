@@ -1,9 +1,9 @@
-#!/bin/usr/env python3	
+#!/usr/bin/env python3
 '''Task 1's module.
 
-This module contains a type-annotated function.
-
+This module contains a function that concatenates two strings.
 '''
+
 
 def concat(str1: str, str2: str) -> str:
     '''Concatenates two strings.
@@ -14,6 +14,5 @@ def concat(str1: str, str2: str) -> str:
 
     Returns:
         str: The concatenated string.
-
     '''
     return str1 + str2
